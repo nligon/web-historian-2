@@ -143,7 +143,7 @@ describe('archive helpers', function() {
   });
 
   describe('#downloadUrls', function () {
-    xit('should download all pending urls in the list', function (done) {
+    it('should download all pending urls in the list', function (done) {
       var urlArray = ['www.example.com', 'www.google.com'];
       archive.downloadUrls(urlArray);
 
